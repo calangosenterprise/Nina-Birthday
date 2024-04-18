@@ -878,8 +878,8 @@ form label {
 #fh5co-counter .display-tc .btn,
 .fh5co-cover .display-tc .btn {
   padding: 15px 20px;
-  background: rgb(255, 0, 0) !important;
-  color: gold;
+  background: rgb(255, 0, 234) !important;
+  color: rgb(255, 255, 255);
   border: none !important;
   font-size: 14px;
   text-transform: uppercase;
@@ -945,20 +945,20 @@ form label {
   width:100px;
   display:inline-block;
   -webkit-mask:
-     radial-gradient(circle at 60% 65%, red 64%, transparent 65%) top left,
-     radial-gradient(circle at 40% 65%, red 64%, transparent 65%) top right,
-     linear-gradient(to bottom left, red 43%,transparent 43%) bottom left ,
-     linear-gradient(to bottom right,red 43%,transparent 43%) bottom right;
+     radial-gradient(circle at 60% 65%, rgb(255, 0, 234) 64%, transparent 65%) top left,
+     radial-gradient(circle at 40% 65%, rgb(255, 0, 234) 64%, transparent 65%) top right,
+     linear-gradient(to bottom left, rgb(255, 0, 234) 43%,transparent 43%) bottom left ,
+     linear-gradient(to bottom right,rgb(255, 0, 234) 43%,transparent 43%) bottom right;
   -webkit-mask-size:50% 50%;
   -webkit-mask-repeat:no-repeat;
   mask:
-     radial-gradient(circle at 60% 65%, red 64%, transparent 65%) top left,
-     radial-gradient(circle at 40% 65%, red 64%, transparent 65%) top right,
-     linear-gradient(to bottom left, red 43%,transparent 43%) bottom left ,
-     linear-gradient(to bottom right,red 43%,transparent 43%) bottom right;
+     radial-gradient(circle at 60% 65%, rgb(255, 0, 234) 64%, transparent 65%) top left,
+     radial-gradient(circle at 40% 65%, rgb(255, 0, 234) 64%, transparent 65%) top right,
+     linear-gradient(to bottom left, rgb(255, 0, 234) 43%,transparent 43%) bottom left ,
+     linear-gradient(to bottom right,rgb(255, 0, 234) 43%,transparent 43%) bottom right;
   mask-size:50% 50%;
   mask-repeat:no-repeat;
-  background:linear-gradient(red,red);
+  background:linear-gradient(rgb(255, 0, 234),rgb(255, 0, 234));
   animation: pulse 1s ease infinite;
 }
 
@@ -984,7 +984,7 @@ form label {
 .simply-countdown > .simply-section .simply-amount,
 .simply-countdown > .simply-section .simply-word {
   display: block;
-  color: gold;
+  color: rgb(255, 255, 255);
   /* amounts and words */
 }
 
@@ -1053,7 +1053,7 @@ form label {
   font-size: 20px;
   background: #fff;
   padding: 20px;
-  color: #ff0000;
+  color: rgb(255, 0, 234);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1076,7 +1076,7 @@ form label {
 }
 .couple-half h3 {
   font-family: "Sacramento", Arial, serif;
-  color: #ff0000;
+  color: rgb(255, 0, 234);
   font-size: 30px;
 }
 .couple-half .groom, .couple-half .bride {
@@ -1169,7 +1169,7 @@ form label {
   height: 90px;
   font-size: 40px;
   line-height: 40px;
-  color: #ff0000;
+  color: rgb(255, 0, 234);
 }
 .feature-center p, .feature-center h3 {
   margin-bottom: 30px;
@@ -1191,7 +1191,7 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #ff0000;
+  color: rgb(255, 0, 234);
   font-family: "Sacramento", Arial, serif;
 }
 @media screen and (max-width: 768px) {
@@ -1226,7 +1226,7 @@ form label {
   display: block;
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide span a.twitter {
-  color: #ff0000;
+  color: rgb(255, 0, 234);
   font-weight: 300;
 }
 #fh5co-testimonial .wrap-testimony .testimony-slide figure {
@@ -1318,7 +1318,7 @@ form label {
   display: table-cell;
   vertical-align: middle;
   font-size: 30px;
-  color: #ff0000;
+  color: rgb(255, 0, 234);
 }
 .feature-left .feature-copy {
   float: left;
@@ -1384,8 +1384,8 @@ form label {
 #fh5co-started .btn {
   height: 54px;
   border: none !important;
-  background: #ff0000;
-  color: gold;
+  background: rgb(255, 0, 234);
+  color: rgb(255, 255, 255);
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 400;
@@ -1428,7 +1428,7 @@ form label {
 }
 .owl-carousel .owl-controls .owl-dot.active span {
   background: transparent;
-  border: 2px solid #ff0000;
+  border: 2px solid rgb(255, 0, 234);
 }
 
 #fh5co-offcanvas {
@@ -1681,21 +1681,21 @@ form label {
 }
 
 .btn-primary {
-  background: #ff0000;
+  background: rgb(255, 0, 234);
   color: gold;
   border: 2px solid #fcb900;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #ff0000 !important;
+  background: rgb(255, 0, 234) !important;
   border-color: #ffc400 !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: #ff0000;
+  color: rgb(255, 0, 234);
   border: 2px solid gold;
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-  background: #ff0000;
+  background: rgb(255, 0, 234);
   color: gold;
 }
 
@@ -1825,7 +1825,7 @@ form label {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: #ff0000;
+  border-color: rgb(255, 0, 234);
 }
 
 .row-pb-md {
