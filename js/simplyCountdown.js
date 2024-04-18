@@ -115,17 +115,17 @@
      */
     simplyCountdown = function (elt, args) {
         var parameters = extend({
-                year: 2022,
-                month: 4,
-                day: 10,
+                year: 2024,
+                month: 5,
+                day: 19,
                 hours: 6,
                 minutes: 0,
                 seconds: 0,
                 words: {
                     days: 'dia',
                     hours: 'hora',
-                    minutes: 'minuto',
-                    seconds: 'segundo',
+                    minutes: 'min',
+                    seconds: 'seg',
                     pluralLetter: 's'
                 },
                 plural: true,

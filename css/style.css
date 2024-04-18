@@ -829,6 +829,15 @@ form label {
   display: table-cell !important;
   vertical-align:middle;
 }
+
+@keyframes textAnimation {
+  0% { color: red; }
+  25% { color: yellow; }
+  50% { color: blue; }
+  75% { color: green; }
+  100% { color: red; }
+}
+
 #fh5co-header .display-tc h1, #fh5co-header .display-tc h2,
 #fh5co-counter .display-tc h1,
 #fh5co-counter .display-tc h2,
@@ -836,7 +845,7 @@ form label {
 .fh5co-cover .display-tc h2 {
   margin: 0;
   padding: 0;
-  color: white;
+  animation: textAnimation 5s infinite;
 }
 #fh5co-header .display-tc h1,
 #fh5co-counter .display-tc h1,
@@ -844,7 +853,7 @@ form label {
   margin-bottom: 0px;
   font-size: 100px;
   line-height: 1.5;
-  font-family: "Sacramento", Arial, serif;
+  font-family: "fantasy", Arial, serif;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
