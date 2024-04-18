@@ -934,10 +934,10 @@ form label {
 
 .simply-countdown {
   /* The countdown */
-  margin-bottom: 2em;
-  margin-left: 2em;
-  margin-top: 2em;
-  margin-right: 2em;
+  margin-bottom: 3em;
+  margin-left: 3em;
+  margin-top: 3em;
+  margin-right: 3em;
 }
 
 .simply-countdown > .simply-section {
@@ -945,20 +945,20 @@ form label {
   width:100px;
   display:inline-block;
   -webkit-mask:
-     radial-gradient(circle at 60% 65%, rgb(255, 0, 234) 64%, transparent 65%) top left,
-     radial-gradient(circle at 40% 65%, rgb(255, 0, 234) 64%, transparent 65%) top right,
-     linear-gradient(to bottom left, rgb(255, 0, 234) 43%,transparent 43%) bottom left ,
-     linear-gradient(to bottom right,rgb(255, 0, 234) 43%,transparent 43%) bottom right;
+     radial-gradient(circle at 60% 65%, rgb(138, 1, 138) 64%, transparent 65%) top left,
+     radial-gradient(circle at 40% 65%, rgb(138, 1, 138) 64%, transparent 65%) top right,
+     linear-gradient(to bottom left, rgb(138, 1, 138) 43%,transparent 43%) bottom left ,
+     linear-gradient(to bottom right,rgb(138, 1, 138) 43%,transparent 43%) bottom right;
   -webkit-mask-size:50% 50%;
   -webkit-mask-repeat:no-repeat;
   mask:
-     radial-gradient(circle at 60% 65%, rgb(255, 0, 234) 64%, transparent 65%) top left,
-     radial-gradient(circle at 40% 65%, rgb(255, 0, 234) 64%, transparent 65%) top right,
-     linear-gradient(to bottom left, rgb(255, 0, 234) 43%,transparent 43%) bottom left ,
-     linear-gradient(to bottom right,rgb(255, 0, 234) 43%,transparent 43%) bottom right;
+     radial-gradient(circle at 60% 65%, rgb(138, 1, 138) 64%, transparent 65%) top left,
+     radial-gradient(circle at 40% 65%, rgb(138, 1, 138) 64%, transparent 65%) top right,
+     linear-gradient(to bottom left, rgb(138, 1, 138) 43%,transparent 43%) bottom left ,
+     linear-gradient(to bottom right,rgb(138, 1, 138) 43%,transparent 43%) bottom right;
   mask-size:50% 50%;
   mask-repeat:no-repeat;
-  background:linear-gradient(rgb(255, 0, 234),rgb(255, 0, 234));
+  background:linear-gradient(rgb(138, 1, 138),rgb(138, 1, 138));
   animation: pulse 1s ease infinite;
 }
 
