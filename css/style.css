@@ -831,11 +831,11 @@ form label {
 }
 
 @keyframes textAnimation {
-  0% { color: red; }
-  25% { color: yellow; }
-  50% { color: blue; }
-  75% { color: green; }
-  100% { color: red; }
+  0% { color: rgb(234, 0, 255); }
+  25% { color: rgb(255, 0, 200); }
+  50% { color: rgb(255, 0, 157); }
+  75% { color: rgba(247, 5, 105, 0.747); }
+  100% { color: rgb(204, 0, 255); }
 }
 
 #fh5co-header .display-tc h1, #fh5co-header .display-tc h2,
@@ -845,7 +845,7 @@ form label {
 .fh5co-cover .display-tc h2 {
   margin: 0;
   padding: 0;
-  animation: textAnimation 5s infinite;
+  animation: textAnimation 2s infinite;
 }
 #fh5co-header .display-tc h1,
 #fh5co-counter .display-tc h1,
@@ -853,7 +853,7 @@ form label {
   margin-bottom: 0px;
   font-size: 100px;
   line-height: 1.5;
-  font-family: "fantasy", Arial, serif;
+  font-family: "Sacramento", Arial, serif;
 }
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
@@ -954,20 +954,20 @@ form label {
   width:100px;
   display:inline-block;
   -webkit-mask:
-     radial-gradient(circle at 60% 65%, rgb(138, 1, 138) 64%, transparent 65%) top left,
-     radial-gradient(circle at 40% 65%, rgb(138, 1, 138) 64%, transparent 65%) top right,
-     linear-gradient(to bottom left, rgb(138, 1, 138) 43%,transparent 43%) bottom left ,
-     linear-gradient(to bottom right,rgb(138, 1, 138) 43%,transparent 43%) bottom right;
+     radial-gradient(circle at 60% 65%, rgb(255, 52, 211) 64%, transparent 65%) top left,
+     radial-gradient(circle at 40% 65%, rgb(255, 52, 211) 64%, transparent 65%) top right,
+     linear-gradient(to bottom left, rgb(255, 52, 211) 43%,transparent 43%) bottom left ,
+     linear-gradient(to bottom right,rgb(255, 52, 211) 43%,transparent 43%) bottom right;
   -webkit-mask-size:50% 50%;
   -webkit-mask-repeat:no-repeat;
   mask:
-     radial-gradient(circle at 60% 65%, rgb(138, 1, 138) 64%, transparent 65%) top left,
-     radial-gradient(circle at 40% 65%, rgb(138, 1, 138) 64%, transparent 65%) top right,
-     linear-gradient(to bottom left, rgb(138, 1, 138) 43%,transparent 43%) bottom left ,
-     linear-gradient(to bottom right,rgb(138, 1, 138) 43%,transparent 43%) bottom right;
+     radial-gradient(circle at 60% 65%, rgb(255, 52, 211) 64%, transparent 65%) top left,
+     radial-gradient(circle at 40% 65%, rgb(255, 52, 211) 64%, transparent 65%) top right,
+     linear-gradient(to bottom left, rgb(255, 52, 211) 43%,transparent 43%) bottom left ,
+     linear-gradient(to bottom right,rgb(255, 52, 211) 43%,transparent 43%) bottom right;
   mask-size:50% 50%;
   mask-repeat:no-repeat;
-  background:linear-gradient(rgb(138, 1, 138),rgb(138, 1, 138));
+  background:linear-gradient(rgb(255, 52, 211),rgb(255, 52, 211));
   animation: pulse 1s ease infinite;
 }
 
