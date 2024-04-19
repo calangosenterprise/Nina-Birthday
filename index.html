@@ -39,7 +39,7 @@
 
       <div class="inputBox"> 
 
-       <input type="submit" value="Login">
+        <button onclick="checkCredentials()">Login</button>
 
       </div> 
 
@@ -56,7 +56,6 @@
 
         // Substitua 'user' e 'pass' pelos valores corretos de usuário e senha
         if(username === 'user' && password === 'pass') {
-          // Substitua 'yourpage.html' pela página que você deseja acessar
           window.location.href = 'home.html';
         } else {
           alert('Usuário ou senha incorretos');
